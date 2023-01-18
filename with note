@@ -17,7 +17,8 @@ void draw()
   
   stroke(0, 0, 0);  //black outlinr
   fill(60, 220, 90); //green
-  rect(0,100,width,40);
+  rect(0,100,width,40); //horizontal
+  rect(100,0,30,height); // vertical
   ellipse(mouseX,mouseY,100,100);
   
 }
