@@ -1,0 +1,31 @@
+//setup() can set the screen size and bakground color , is called by Processing once should not be called again
+//only be one setup()function for each sketch
+
+void setup()//define a method or function
+{
+  size(500,400);
+}
+
+//you should never call the draw() function processing autocalls it after the setup() call
+//draw()continuosly executes the cdoe ontained inside it, there can only be one draw()function for each sketch
+
+void draw()
+{
+
+ //set to black,grayscale spectrum
+ 
+  background(0); 
+  noStroke(); //stroke(60,220,90) or stroke(0,0,0); //black outline
+  fill(60, 220, 90); //green
+  rect(0,100,width,40); //horizontal // using width system variable in the rect function to draw a thick line
+  rect(100,0,30,height);//vertical
+  ellipse(mouseY,mouseX,100,100); // if you swap mouseY and mouseX aroundh in the ellipse function ,as you ,ove mouse to the right on the x axis the circle will move down on the y axis 
+ 
+}
+ 
+ /*why many circles? background(0) is in the setup function*/
+ /*what happens moves to background(0) into the draw function, before each cicle is drawn,the backgound is painted black, so it clears the previous circle*/
+ 
+ 
+
+ 
