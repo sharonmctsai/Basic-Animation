@@ -11,14 +11,14 @@ void setup()//define a method or function
 
 void draw()
 {
-  background(0); 
+
  //set to black,grayscale spectrum
  
-  
-  stroke(0, 0, 0);  //black outlinr
+ background(0); 
+  noStroke(); //stroke(60,220,90) or stroke(0,0,0); //black outline
   fill(60, 220, 90); //green
   rect(0,100,width,40); //horizontal
-  rect(100,0,30,height); // vertical
+  rect(100,0,30,height);//vertical
   ellipse(mouseX,mouseY,100,100);
   
 }
