@@ -1,0 +1,14 @@
+void setup()
+{
+size(500,400);
+//set to black,grayscale spectrum
+background(0);
+}
+
+void draw()
+{
+stroke(0,0,0);   //black outline
+fill(60,220,90); //green
+ellipse(mouseY, mouseX, 100, 100);
+ellipse(width, mouseY, 100, 100);
+}
