@@ -1,0 +1,26 @@
+//setting the size and color of the window
+size(300,400);
+background(0);
+
+//drawing box with width and height
+stroke(0,100,255);
+strokeWeight(4);
+
+int  a = 70;
+int  b = 120;
+int  c = 230;
+
+//horizontal
+line(a, b, c , b);
+line(a , height-270, c ,  height-270);
+line(a , height-250, c ,  height-250);
+line(a , height-200, c ,  height-200);
+line(a , height-100, c ,  height-100);
+
+//vertical
+line(a , b, a, height-100);
+line(c , b, c ,height-100);
+
+
+
+
