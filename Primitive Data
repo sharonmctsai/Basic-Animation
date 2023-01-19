@@ -1,0 +1,15 @@
+//setting the size and color of the window
+size(300,400);
+background(0);
+
+//drawing three blue lines
+stroke(0,100,255);
+strokeWeight(6);
+
+int  a = 70;
+int  b = 120;
+int  c = 230;
+
+line(a, b, c , b);
+line(a , b+20, c ,  b+20);
+line(a,  b+40, c , b+40);
