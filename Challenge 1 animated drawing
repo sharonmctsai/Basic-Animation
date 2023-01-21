@@ -18,5 +18,6 @@ circle(pmouseX,pmouseY,pmouseY);  //grow in size when down reduce when up, stay 
 
 
 fill(#81AAB4);//blue
+noCursor();
 circle(mouseY,mouseX,mouseX);////grow in size when down reduce when up, stay the same horizontally
 }//the size of the circle is determined by the x mouse coordinate.
