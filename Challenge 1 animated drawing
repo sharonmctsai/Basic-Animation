@@ -13,7 +13,7 @@ void draw()
 background(#67D18D);//green
 fill(#D167C5);//pink
 noCursor();
-circle(pmouseX,pmouseY,pmouseY);  //grow in size when down reduce when up, stay the same horizontally
+circle(mouseX,mouseY,mouseY);  //grow in size when down reduce when up, stay the same horizontally
 //the size of the circle is determined by the y mouse coordinate.
 
 
