@@ -26,6 +26,20 @@ void draw()
  /*why many circles? background(0) is in the setup function*/
  /*what happens moves to background(0) into the draw function, before each cicle is drawn,the backgound is painted black, so it clears the previous circle*/
  
- 
+ ************************************************
+// called once
+void setup()
+{
+  size(500,400); 
+}
 
+//called continuously
+void draw()
+{
+  background(0);
+  stroke(0, 0, 0);
+  fill(60, 220, 90);
+  //ellipse(mouseY, mouseX, 100, 100);
+  ellipse(width, mouseY, 100, 100);
+ }
  
