@@ -1,10 +1,12 @@
+// called once
+
 void setup()
 {
 size(500,400);
 //set to black,grayscale spectrum
 background(0);
 }
-
+//called continuously
 void draw()
 {
 stroke(0,0,0);   //black outline
