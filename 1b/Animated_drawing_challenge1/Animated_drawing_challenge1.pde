@@ -1,0 +1,23 @@
+//Challenge1 (animated drawing with no cursor)
+
+void setup()
+
+{
+ size(500,400); 
+}
+
+void draw()
+
+{
+
+background(#67D18D);//green
+fill(#D167C5);//pink
+noCursor();
+circle(mouseX,mouseY,mouseY);  //grow in size when down reduce when up, stay the same horizontally
+//the size of the circle is determined by the y mouse coordinate.
+
+
+fill(#81AAB4);//blue
+noCursor();
+circle(mouseY,mouseX,mouseX);////grow in size when down reduce when up, stay the same horizontally
+}//the size of the circle is determined by the x mouse coordinate.

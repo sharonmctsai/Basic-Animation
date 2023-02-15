@@ -1,0 +1,21 @@
+//Exercise 3 animated drawing
+//while circle is drwn when move the mouse, only one circle is visible at one time
+
+void setup()
+
+{
+ size(500,400); 
+}
+
+void draw()
+
+{
+
+background(200);//
+fill(255);//White
+circle(mouseX,mouseY,mouseY);  //grow in size when down reduce when up, stay the same horizontally
+
+
+fill(0);//the size of the circle is determined by the x mouse coordinate.
+circle(mouseY,mouseX,mouseX);
+}
